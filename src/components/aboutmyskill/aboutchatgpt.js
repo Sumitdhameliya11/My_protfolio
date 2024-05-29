@@ -50,14 +50,13 @@ const AboutMySkill = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="col-6 col-sm-4 col-md-3 col-lg-2 text-center mb-3"
-            style={{ width: "18" }}
+            className="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2 text-center mb-2"
+            style={{ width: "20" }}
           >
             <div
-              className="skill-icon bg-black d-flex align-items-center justify-content-center flex-wrap  text-center overflow-hidden p-2 mx-3"
+              className="skill-icon bg-black d-flex align-items-center justify-content-center flex-wrap  text-center overflow-hidden p-2"
               style={{
-                width: "100%",
-                height: "55px",
+                height:"70px",
                 borderRadius: "8px",
                 boxShadow: "-2px -2px 12px #29323c",
               }}
@@ -76,14 +75,13 @@ const AboutMySkill = () => {
         {skills2.map((skill, index) => (
           <div
             key={index}
-            className="col-6 col-sm-4 col-md-3 col-lg-2 text-center mb-3"
-            style={{ width: "18" }}
+            className="col-6 col-sm-4 col-md-3 col-lg-2 text-center mb-2"
+            style={{ width: "15" }}
           >
             <div
-              className="skill-icon bg-black d-flex align-items-center justify-content-center flex-wrap text-center overflow-hidden p-2 mx-3"
+              className="skill-icon bg-black d-flex align-items-center justify-content-center flex-wrap text-center overflow-hidden p-2"
               style={{
-                width: "100%",
-                height: "50px",
+                height: "70px",
                 borderRadius: "8px",
                 boxShadow: "-2px -2px 12px #29323c",
               }}

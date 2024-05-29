@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-
 export default function SignupFormDemo() {
   return (
     <div>
@@ -16,7 +15,7 @@ export default function SignupFormDemo() {
           Contact With Me
         </h2>
         <p
-          className="text-muted mt-2"
+          className="text-danger mt-2"
           style={{ textShadow: "1px 3px 3px black" }}
         >
           Login to Aceternity if you can because we don&apos;t have a login flow
@@ -24,13 +23,13 @@ export default function SignupFormDemo() {
         </p>
 
         <form className="my-8">
-          <div className="row mb-4 fs-6 fw-semibold">
-            <LabelInputContainer className="col-md-6 w-100">
+          <div className="row mb-4 fs-6 fw-semibold ">
+            <LabelInputContainer className="col-md-6 w-100 text-light">
               <label
                 htmlFor="firstname"
                 className="w-100 text-start text-light"
               >
-                Full Name
+                Full Name :
               </label>
               <input
                 id="Name"
@@ -40,14 +39,14 @@ export default function SignupFormDemo() {
                 style={{
                   background: "black",
                   color: "white",
-                  border: "2px solid crimson",
+                  // border: "2px solid white",
                   outline: "none",
                 }}
               />
             </LabelInputContainer>
             <LabelInputContainer className="mb-4">
               <label htmlFor="email" className="w-100 text-start text-light">
-                Email Address
+                Email Address :
               </label>
               <input
                 id="email"
@@ -57,7 +56,7 @@ export default function SignupFormDemo() {
                 style={{
                   background: "black",
                   color: "white",
-                  border: "2px solid crimson",
+                  // border: "2px solid white",
                   outline: "none",
                 }}
               />
@@ -67,7 +66,7 @@ export default function SignupFormDemo() {
                 htmlFor="firstname"
                 className="w-100 text-start fs-6 fw-semibold text-light"
               >
-                Mobile Number
+                Mobile Number :
               </label>
               <input
                 id="mnumber"
@@ -79,7 +78,7 @@ export default function SignupFormDemo() {
                 style={{
                   background: "black",
                   color: "white",
-                  border: "2px solid crimson",
+                  // border: "2px solid white",
                   outline: "none",
                 }}
               />
@@ -90,7 +89,7 @@ export default function SignupFormDemo() {
             type="submit"
             style={{
               textShadow: "1px 1px 1px black",
-              boxShadow: "0px 0px 3px 0px crimson",
+              boxShadow: "0px 0px 3px 0px white",
             }}
           >
             Contect &rarr;

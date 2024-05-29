@@ -7,7 +7,7 @@ import BootstrapCarousel from "./BootstrapCarousel";
 
 function right() {
   return (
-    <div className="d-flex flex-column gap-4 px-3">
+    <div className="d-flex flex-column gap-4 px-3" style={{background:"grey"}}>
       <About />
       <AboutMySkill />
       <SignupFormDemo />
